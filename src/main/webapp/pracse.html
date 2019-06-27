@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+
+<link rel="stylesheet" href="bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<script src="resource/js/expandsearch.js"></script>
+<link rel="stylesheet" type="text/css" href="resource/css/search.css">
+  <link rel="stylesheet" type="text/css" href="resource/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="resource/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="resource/css/loginemp1.css">
+ <link rel='stylesheet' href="resource/css/bootstrap.min.css">
+<link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+      <link rel="stylesheet" href="resource/css/firststyle.css">
+
+</head>
+
+<body>
+
+
+  <div class="header" style="background-color: black;">
+    <a href="#default" class="logo" style="color: white">CompanyLogo</a>
+      <div class="header-right" style="margin-top: 1em">
+      <a style="color: white">Job Options</a>
+      <a style="color: white">Employer Registration</a>
+      <a onclick="document.getElementById('id01').style.display='block'" style="color: white">Employer Login</a>
+    </div>
+</div>  
+
+
+<div class="col-md-3"  style=" background-color: #353b48;height:200%;float: left;">
+  <div id="users" class="col-xs-12">
+      <div class="filter-group row" style="color: white">    
+        <div class="form-group col-xs-12 col-sm-12 col-md-4" style="color: white">
+          <p>gender</p>
+          <div class="radio-inline">
+            <label>
+            <input class="filter-all" type="radio" value="all" name="gender" id="gender-all" checked /> All
+            </label>
+          </div>
+          <div class="radio-inline">
+            <label>
+              <input class="filter" type="radio" value="female" name="gender" id="gender-female" /> Female
+            </label>
+          </div>
+          <div class="radio-inline">
+            <label>
+            <input class="filter" type="radio" value="male" name="gender" id="gender-male" /> Male
+            </label>
+          </div>
+        </div>
+        <div class="form-group col-xs-12 col-sm-12 col-md-4">
+          <p>location</p>
+          <div class="radio-inline">
+            <label>
+              <input class="filter" type="radio" value="Blvd" name="address" id="address-all" /> Same city
+            </label>
+          </div>
+          <div class="radio-inline">
+            <label>
+              <input class="filter" type="radio" value="St" name="address" id="address-street" /> Same state
+            </label>
+          </div>
+          <div class="radio-inline">
+            <label>
+              <input class="filter" type="radio" value="Dr" name="address" id="address-drive" /> Anywhere
+            </label>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+ <p onclick="showhide(mydiv)" style="width: 1em;color: grey">show/Hide<p>
+        <div id="showmehideme">
+<div class="form-group col-xs-12 col-sm-12 col-md-4" style="color: white">
+          <p>location</p>
+          <div class="radio-inline">
+            <label>
+              <input class="filter" type="radio" value="Blvd" name="address" id="address-all" /> Same city
+            </label>
+          </div>
+          <div class="radio-inline">
+            <label>
+              <input class="filter" type="radio" value="St" name="address" id="address-street" /> Same state
+            </label>
+          </div>
+          <div class="radio-inline">
+            <label>
+              <input class="filter" type="radio" value="Dr" name="address" id="address-drive" /> Anywhere
+            </label>
+          </div>
+        </div>       
+ </div>
+
+
+<script>
+    mydiv = document.getElementById("showmehideme");
+function showhide(d) 
+{
+ d.style.display = (d.style.display !== "none") ? "none" : "block";
+}
+</script>
+
+
+
+
+<div class="col-md-17" onclick="myFunction()" Try itonclick="myFunction()" style="background-color: white;margin-left:0px;height: 3em;border-radius: 100px">
+<h6 style="margin-left: 35%;padding-top: 10px">  Job Type </h6>
+</div>
+<div id="myDIV1">
+        <div id="showmehideme">
+<div class="form-group col-xs-12 col-sm-12 col-md-4" style="color: white">
+            <div class="radio-inline">
+            <label>
+              <input class="filter" type="radio" value="Blvd" name="address" id="address-all" /> Same city
+            </label>
+          </div>
+          <div class="radio-inline">
+            <label>
+              <input class="filter" type="radio" value="St" name="address" id="address-street" /> Same state
+            </label>
+          </div>
+          <div class="radio-inline">
+            <label>
+              <input class="filter" type="radio" value="Dr" name="address" id="address-drive" /> Anywhere
+            </label>
+          </div>
+        </div>      
+  </div>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+</div>
+
+ 
+
+
+
+
+<div class="col-md-7 " ng-app="myShoppingList" ng-cloak ng-controller="myCtrl" style="margin-left: 33%" >
+    
+    <div class="container h-100">
+      <div class="d-flex justify-content-center h-100">
+        <div class="searchbar" style="margin-top: 10%">
+      
+       <!--   <input class="search_input" type="text" name="" placeholder="Search..."  ng-model="addMe" > -->
+            <input  type="text"  placeholder="Search..."  ng-model="addMe" style="opacity: 100%;background-color: #353b48;border-color: background-color: #353b48;border-width: 0px ;color: white;width: 30em; " >
+
+
+        
+
+
+                    <a ng-click="addItem()"  href="#" class="search_icon"><i class="fas fa-search"></i></a> 
+          </div>
+      </div>
+    </div>
+
+<div style="background-color: white;margin-top: 5%">     
+ <ul class="w3-ul">
+       <li ng-repeat="x in products" class="w3-padding-16">{{x}}<span ng-click="removeItem($index)" style="cursor:pointer;" class="w3-right w3-margin-right">×</span></li>
+      </ul>
+      <p class="w3-text-red">{{errortext}}</p>
+  </div>
+
+</div>
+
+<div class="container">
+<div class="row">
+<div id="users" class="col-xs-12">
+      <div class="filter-group row">
+        <div class="form-group col-xs-12 col-sm-12 col-md-4" style="margin-left:  150%;">
+          <input type="text" class="search form-control" placeholder="Search" style="width: 200%;">
+        </div>
+        
+        <div class="form-group col-xs-12 col-sm-12" style="margin-left: 165%">
+          <button class="btn btn-danger" onclick="resetList();" >Clear</button>
+        </div>
+      </div>
+      <ul class="list">
+        <li class="list--list-item" data-gender="male">
+          <h3 class="name">Jonny Wayne</h3>
+          <p class="born">1986</p>
+          <p class="address">13 Oak St.</p>
+        </li>
+        <li class="list--list-item" data-gender="male">
+          <h3 class="name">Jonas</h3>
+          <p class="born">1985</p>
+          <p class="address">3 Main N Ave.</p>
+        </li>
+        <li class="list--list-item" data-gender="male">
+          <h3 class="name">Jonas</h3>
+          <p class="born">1985</p>
+          <p class="address">123 Main St.</p>
+        </li>    
+        <li class="list--list-item" data-gender="male">
+          <h3 class="name">Jonas</h3>
+          <p class="born">1985</p>
+          <p class="address">953 Lake Square</p>
+        </li>
+        <li class="list--list-item" data-gender="female">
+          <h3 class="name">Martina</h3>
+          <p class="born">1986</p>
+          <p class="address">1313 Deadend Dr.</p>
+        </li>
+        <li class="list--list-item" data-gender="male">
+          <h3 class="name">Gustaf</h3>
+          <p class="born">1983</p>
+          <p class="address">24 Busch Blvd.</p>
+        </li>
+      </ul>
+<div class="no-result">no result</div>
+<ul class="pagination"></ul>
+</div>
+</div>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='resource/js/bootstrap.min.js'></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js'></script>
+
+
+    <script  src="resource/js/index.js"></script>
+
+</body>
+</html>

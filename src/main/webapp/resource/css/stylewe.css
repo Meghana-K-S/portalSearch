@@ -1,0 +1,134 @@
+*{
+	margin: 0px;
+	padding: 0.5px;
+}
+
+.row{
+	font-size: 30px;
+	color: white;
+	margin-top: 5px;
+}
+.big{
+		font-size: 30px;
+
+}
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+body {
+       background-image: url("bg.jpg");
+       background-size: cover;
+       background-attachment: fixed;
+} 	
+h1 {
+	font-size: 50px;
+	color: white;
+	margin-top: 250px;
+}
+p{
+	font-size: 17px;
+	color: white;
+}
+h3{
+	font-size: 40px;
+	color: black;
+}
+.glyphicon-pencil{
+	font-size: 35px;
+	color: white;
+	float: right;
+	margin-top: 20px;
+}
+.col-md-5{
+	margin-top: 100px;
+	box-shadow: -1px 1px 60px 10px white;
+	background: rgba(0,0,0,0.4);
+}
+.label{
+	font-weight: normal;
+	margin-top: 20px;
+	color: white;
+    font-size: 18px; 
+}
+.form-control{
+	background: transparent;
+	border-radius: 0px;
+	border: 0px;
+	border-bottom: 1px solid white;
+	font-size: 15px;
+	margin-top: 15px;
+	height: 40px;
+	color: white;
+}
+input[type="checkbox"] {
+	margin-top: 15px;
+	height: 15px;
+	width: 15px;
+}
+small{
+	font-size: 18px;
+	color: white;	
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+    width: 100%;
+}
+
+
+input[type="radio"]{
+	margin-top: 22px;
+}
+
+
+legend{
+	font-size: 22px;
+	color: white;	
+}
+
+label{
+	font-size: 20px;
+	color: white;
+
+}
+
+.accept{
+		margin-top: 22px;
+
+font-size: 20px;
+	color: white;
+}

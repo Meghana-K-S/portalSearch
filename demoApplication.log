@@ -1,0 +1,148 @@
+2019-06-27 12:58:00 DEBUG Search:153 - Connected to the database successfully
+2019-06-27 12:58:01 DEBUG Search:159 - Collection myCollection selected successfully
+2019-06-27 13:00:20 DEBUG Search:147 - Connected to the database successfully
+2019-06-27 13:00:20 DEBUG Search:153 - Collection myCollection selected successfully
+2019-06-27 13:03:27 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 13:03:27 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 13:03:27 DEBUG Search:111 - Collection established
+2019-06-27 13:03:27 DEBUG Search:117 -  Keyword gaven is   null
+2019-06-27 13:03:27 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 13:03:27 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 13:05:47 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 13:05:47 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 13:05:47 DEBUG Search:111 - Collection established
+2019-06-27 13:05:47 DEBUG Search:117 -  Keyword gaven is    
+2019-06-27 13:05:47 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 13:05:47 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 13:06:26 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 13:06:27 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 13:06:27 DEBUG Search:111 - Collection established
+2019-06-27 13:06:27 DEBUG Search:117 -  Keyword gaven is    
+2019-06-27 13:06:27 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 13:06:27 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 13:06:52 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 13:06:52 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 13:06:52 DEBUG Search:111 - Collection established
+2019-06-27 13:06:52 DEBUG Search:117 -  Keyword gaven is    
+2019-06-27 13:06:52 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 13:06:52 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 13:08:11 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 13:08:11 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 13:08:11 DEBUG Search:111 - Collection established
+2019-06-27 13:08:11 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 13:08:11 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 13:08:11 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 13:09:34 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 13:09:34 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 13:09:34 DEBUG Search:111 - Collection established
+2019-06-27 13:09:34 DEBUG Search:117 -  Keyword gaven is   Associate
+2019-06-27 13:09:34 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 13:09:34 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 13:13:56 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 13:13:56 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 13:13:56 DEBUG Search:111 - Collection established
+2019-06-27 13:13:56 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 13:13:56 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 13:13:56 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 13:15:04 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 13:15:04 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 13:15:04 DEBUG Search:111 - Collection established
+2019-06-27 13:15:04 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 13:15:04 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 13:15:04 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 13:15:05 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 13:15:05 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 13:15:05 DEBUG Search:111 - Collection established
+2019-06-27 13:15:05 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 13:15:05 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 13:15:05 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 13:17:03 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 13:17:03 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 13:17:03 DEBUG Search:111 - Collection established
+2019-06-27 13:17:03 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 13:17:03 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 13:17:03 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 13:19:04 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 13:19:04 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 13:19:04 DEBUG Search:111 - Collection established
+2019-06-27 13:19:04 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 13:19:04 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 13:19:04 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 13:52:54 DEBUG Search:147 - Connected to the database successfully
+2019-06-27 13:52:54 DEBUG Search:153 - Collection myCollection selected successfully
+2019-06-27 13:52:55 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 13:52:55 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 13:52:55 DEBUG Search:111 - Collection established
+2019-06-27 13:52:55 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 13:52:55 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 13:52:55 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 13:52:56 DEBUG Search:147 - Connected to the database successfully
+2019-06-27 13:52:56 DEBUG Search:153 - Collection myCollection selected successfully
+2019-06-27 13:52:56 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 13:52:56 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 13:52:56 DEBUG Search:111 - Collection established
+2019-06-27 13:52:56 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 13:52:56 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 13:52:56 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 13:54:18 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 13:54:18 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 13:54:18 DEBUG Search:111 - Collection established
+2019-06-27 13:54:18 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 13:54:18 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 13:54:18 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 14:02:08 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 14:02:08 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 14:02:08 DEBUG Search:111 - Collection established
+2019-06-27 14:02:08 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 14:02:08 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 14:02:08 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 14:34:50 DEBUG Search:153 - Connected to the database successfully
+2019-06-27 14:34:50 DEBUG Search:159 - Collection myCollection selected successfully
+2019-06-27 14:34:50 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 14:34:50 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 14:34:50 DEBUG Search:111 - Collection established
+2019-06-27 14:34:50 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 14:34:50 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 14:34:50 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 14:35:46 DEBUG Search:148 - Connected to the database successfully
+2019-06-27 14:35:46 DEBUG Search:154 - Collection myCollection selected successfully
+2019-06-27 14:35:46 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 14:35:46 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 14:35:46 DEBUG Search:111 - Collection established
+2019-06-27 14:35:46 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 14:35:46 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 14:35:46 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 14:43:51 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 14:43:51 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 14:43:51 DEBUG Search:111 - Collection established
+2019-06-27 14:43:51 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 14:43:51 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 14:43:51 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 14:45:13 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 14:45:13 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 14:45:13 DEBUG Search:111 - Collection established
+2019-06-27 14:45:13 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 14:45:13 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 14:45:13 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 14:51:15 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 14:51:15 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 14:51:15 DEBUG Search:111 - Collection established
+2019-06-27 14:51:15 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 14:51:15 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 14:51:15 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 14:55:29 DEBUG Search:148 - Connected to the database successfully
+2019-06-27 14:55:29 DEBUG Search:154 - Collection myCollection selected successfully
+2019-06-27 14:55:34 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 14:55:34 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 14:55:34 DEBUG Search:111 - Collection established
+2019-06-27 14:55:34 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 14:55:34 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 14:55:34 DEBUG Search:158 - java.lang.NullPointerException
+2019-06-27 14:56:15 DEBUG Search:149 - Connected to the database successfully
+2019-06-27 14:56:15 DEBUG Search:155 - Collection myCollection selected successfully
+2019-06-27 14:56:15 DEBUG Search:103 - Connected to the database successfully
+2019-06-27 14:56:15 DEBUG Search:109 - Collection myCollection selected successfully
+2019-06-27 14:56:15 DEBUG Search:111 - Collection established
+2019-06-27 14:56:15 DEBUG Search:117 -  Keyword gaven is   Engineer
+2019-06-27 14:56:15 DEBUG Search:118 - Parameters from jsp to servlet assigned
+2019-06-27 14:56:15 DEBUG Search:158 - java.lang.NullPointerException

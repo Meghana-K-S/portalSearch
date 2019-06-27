@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/289C45BB-4629-6F47-803E-5407BD2997F7/main.js" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<script src="resource/js/expandsearch.js"></script>
+<link rel="stylesheet" type="text/css" href="resource/css/search.css">
+  <link rel="stylesheet" type="text/css" href="resource/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="resource/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="resource/css/loginemp1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<style>
+.checked {
+  color: orange;
+}
+</style>
+
+<body>
+
+
+<div class="header" style="background-color: black;">
+    <a href="#default" class="logo" style="color: white">CompanyLogo</a>
+      <div class="header-right" style="margin-top: 1em">
+      <a style="color: white">Job Options</a>
+      <a style="color: white">Employer Registration</a>
+    </div>
+</div>  
+
+
+  <div class="container col-md-5" style="float: right;margin-right:20%;margin-top: 10% ;">
+  <div class="row">
+    <div id="users" class="col-md-3">
+      <div class="filter-group row">
+        <div class="form-group col-xs-12 col-sm-12 col-md-4" >
+          <input type="text" class="search form-control" placeholder="Search" style="width: 30em;margin-top: 2em">
+        </div>
+        
+        <div class="form-group col-xs-12 col-sm-12">
+          <button class="btn btn-danger" onclick="resetList();">Clear</button>
+        </div>
+      </div>
+      <ul class="list">
+        <li class="list--list-item" data-gender="male">
+          <h3 class="name">Jonny Wayne</h3>
+          <p class="born">1986</p>
+          <p class="address">13 Oak St.</p>
+        </li>
+        <li class="list--list-item" data-gender="male">
+          <h3 class="name">Jonas</h3>
+          <p class="born">1985</p>
+          <p class="address">3 Main N Ave.</p>
+        </li>
+        <li class="list--list-item" data-gender="male">
+          <h3 class="name">Jonas</h3>
+          <p class="born">1985</p>
+          <p class="address">123 Main St.</p>
+        </li>    
+        <li class="list--list-item" data-gender="male">
+          <h3 class="name">Jonas</h3>
+          <p class="born">1985</p>
+          <p class="address">953 Lake Square</p>
+        </li>
+        <li class="list--list-item" data-gender="female">
+          <h3 class="name">Martina</h3>
+          <p class="born">1986</p>
+          <p class="address">1313 Deadend Dr.</p>
+        </li>
+        <li class="list--list-item" data-gender="male">
+          <h3 class="name">Gustaf</h3>
+          <p class="born">1983</p>
+          <p class="address">24 Busch Blvd.</p>
+        </li>
+      </ul>
+      <div class="no-result">No Results</div>
+      <ul class="pagination"></ul>
+    </div>
+  </div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.js'></script>
+
+  
+
+    <script  src="resource/js/searchdemo.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-md-3"  style=" background-color: #353b48;height:200%;float: left;">
+    <div id="users" class="col-xs-12">
+        <div class="filter-group row" style="color: white">    
+          <div class="form-group col-xs-12 col-sm-12 col-md-4" style="color: white">
+            <p>Gender</p>
+            <div class="radio-inline">
+              <label>
+              <input class="filter-all" type="radio" value="all" name="gender" id="gender-all" checked /> All
+              </label>
+            </div>
+            <div class="radio-inline">
+              <label>
+                <input class="filter" type="radio" value="female" name="gender" id="gender-female" /> Female
+              </label>
+            </div>
+            <div class="radio-inline">
+              <label>
+              <input class="filter" type="radio" value="male" name="gender" id="gender-male" /> Male
+              </label>
+            </div>
+          </div>
+          <div class="form-group col-xs-12 col-sm-12 col-md-4">
+            <p>Rating</p>
+            <div class="radio-inline">
+              <label>
+                <input class="filter" type="radio" value="Blvd" name="address" id="address-all" />&nbsp;&nbsp;<span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+              </label>
+            </div>
+            <div class="radio-inline">
+              <label>
+                <input class="filter" type="radio" value="St" name="address" id="address-street" />&nbsp;&nbsp;<span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+              </label>
+            </div>
+            <div class="radio-inline">
+              <label>
+                <input class="filter" type="radio" value="Dr" name="address" id="address-drive" />&nbsp;&nbsp;<span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+  </div>
+
+
+ 
+  <div class="col-md-17" onclick="myFunction1()" Try itonclick="myFunction1()" style="background-color: white;margin-left:0px;height: 3em;border-radius: 100px">
+  <h6 style="margin-left: 35%;padding-top: 10px">  experience </h6>
+  </div>
+  <div id="myDIV2">
+          <div id="showmehideme">
+            <div class="filter-group row" style="color: white">    
+          
+  <div class="form-group col-xs-12 col-sm-12 col-md-4" style="color: white">
+    <div class="radio-inline">
+              <label>
+                <input class="filter" type="radio" value="Blvd" name="address" id="address-all" /> >8years
+              </label>
+            </div>
+              <div class="radio-inline">
+              <label>
+                <input class="filter" type="radio" value="Blvd" name="address" id="address-all" /> >5years
+              </label>
+            </div>
+            <div class="radio-inline">
+              <label>
+              <input class="filter" type="radio" value="St" name="address" id="address-street"/> >3years
+              </label>
+            </div>
+            <div class="radio-inline">
+              <label>
+                <input class="filter" type="radio" value="Dr" name="address" id="address-drive" /> fresher
+              </label>
+            </div>
+          </div>   
+               </div>
+  </div>
+
+
+  <script>
+  function myFunction1() {
+    var y = document.getElementById("myDIV2");
+    if (y.style.display === "none") {
+      y.style.display = "block";
+    } else {
+      y.style.display = "none";
+    }
+  }
+  </script>
+
+
+  <div class="col-md-17" onclick="myFunction4()" Try itonclick="myFunction4()" style="background-color: white;margin-left:0px;height: 3em;border-radius: 100px;margin-top: 2%">
+  <h6 style="margin-left: 35%;padding-top: 10px;margin-top: 2%">  Job Type </h6>
+  </div>
+  <div id="myDIV4">
+          <div id="showmehideme">
+  <div class="form-group col-xs-12 col-sm-12 col-md-5" style="color: white">
+              <div class="radio-inline">
+              <label>
+                <input class="filter" type="radio" value="Blvd" name="address" id="address-all" /> Internship
+              </label>
+            </div>
+            <div class="radio-inline">
+              <label>
+                <input class="filter" type="radio" value="St" name="address" id="address-street" /> Full-time
+              </label>
+            </div>
+           
+          </div>        
+  </div>
+
+
+  <script>
+  function myFunction4() {
+    var x = document.getElementById("myDIV4");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+
+
+
+</body>
+
+</html>
